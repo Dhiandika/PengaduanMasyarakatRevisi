@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Ijologo">#107E7E</color>
+    <color name="biru">#25AED9</color>
+    <color name="Ijotrans">#80107E7E</color>
+    <color name="red">#d60202</color>
+    <color name="darkergrey">#AAAAAA</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="Darkgrey_Opacity">#98000000 </color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="mtrl_textinput_default_box_stroke_color">#fff</color>
+</resources>

@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "914580842417",
+    "firebase_url": "https://pengaduanmasyarakat-e29dc-default-rtdb.firebaseio.com",
+    "project_id": "pengaduanmasyarakat-e29dc",
+    "storage_bucket": "pengaduanmasyarakat-e29dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914580842417:android:33796c2eb2f162b453ff90",
+        "android_client_info": {
+          "package_name": "com.example.pengaduanmasyarakat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "914580842417-is7o8j2fa6glms6gobt06hbmqcdpgf5s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pengaduanmasyarakat",
+            "certificate_hash": "25c84f6f80812cf83abd0afcdec434c63d30b564"
+          }
+        },
+        {
+          "client_id": "914580842417-g34u1iopuqv1d4rb082vc5calmcn61ov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1bivYGS-YT24CNkQTRtTIW6p1ksFvnjQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "914580842417-g34u1iopuqv1d4rb082vc5calmcn61ov.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914580842417:android:00ae037226aed9f753ff90",
+        "android_client_info": {
+          "package_name": "com.example.pengaduanmasyarakatrevisi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "914580842417-g34u1iopuqv1d4rb082vc5calmcn61ov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1bivYGS-YT24CNkQTRtTIW6p1ksFvnjQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "914580842417-g34u1iopuqv1d4rb082vc5calmcn61ov.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

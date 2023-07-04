@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bgwa">
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="190dp"
+        android:contentDescription="@string/bglogin"
+        android:scaleType="fitXY"
+        android:background="@drawable/bg" />
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="98dp"
+        android:layout_marginTop="60dp"
+        android:scaleType="fitXY"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"
+        android:contentDescription="@string/logoutama" />
+
+    <TextView
+        android:id="@+id/textlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Logintext"
+        android:fontFamily="@font/montserrat_bold"
+        android:textSize="48sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="60dp"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutlog"
+        android:layout_width="488dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="0dp"
+        android:layout_below="@+id/textlogin"
+        app:boxStrokeColor="@color/white"
+        app:boxStrokeWidth="2dp"
+        android:paddingTop="10dp"
+        android:hint="@string/username"
+        app:boxCornerRadiusBottomStart="10dp"
+        app:boxCornerRadiusBottomEnd="10dp"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="10dp"
+        app:hintTextColor="@color/white"
+        app:startIconTint="@color/white"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/emaillog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:minHeight="48dp"
+            android:autofillHints="emailAddress"
+            android:drawableStart="@drawable/custom_mail_icon"
+            android:drawablePadding="12dp"
+            android:fontFamily="@font/opensans_bold"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/white"
+            android:textColorHighlight="#000000">
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutpass"
+        android:layout_width="488dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/layoutlog"
+        app:boxStrokeWidth="2dp"
+        app:startIconTint="@color/white"
+        android:hint="@string/passwordlogin"
+        android:paddingTop="10dp"
+        app:hintTextColor="@color/white"
+        app:endIconMode="password_toggle"
+        app:endIconTint="@color/darkergrey"
+        app:boxStrokeColor="@color/white"
+        app:boxStrokeErrorColor="@color/red"
+        app:boxCornerRadiusBottomStart="10dp"
+        app:boxCornerRadiusBottomEnd="10dp"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="10dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passlog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:autofillHints="password"
+            android:textColor="@color/white"
+            android:drawableStart="@drawable/custom_lock_icon"
+            android:drawablePadding="12dp"
+            android:fontFamily="@font/opensans_bold"
+            android:inputType="textPassword"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:textColorHighlight="@color/white"
+            android:textColorLink="@color/white">
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:layout_below="@id/layoutpass"
+        android:id="@+id/logbutton"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="@string/loginbutton"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:fontFamily="@font/montserrat_bold"
+        android:background="@drawable/loginijo"
+        android:textColor="@color/white"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginLeft="65dp"
+        />
+
+    <Button
+        android:layout_below="@id/logbutton"
+        android:id="@+id/gotoregister"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/regbuttonlogin"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:fontFamily="@font/montserrat_bold"
+        android:background="@drawable/loginijo"
+        android:textColor="@color/white"
+        android:layout_marginTop="0dp"
+        android:paddingBottom="10dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginLeft="65dp"
+        />
+
+    <TextView
+        android:id="@+id/from"
+        android:layout_below="@+id/gotoregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/from"
+        android:fontFamily="@font/opensans_semibold"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_marginTop="120dp"
+        />
+
+    <TextView
+        android:layout_below="@+id/from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/team"
+        android:fontFamily="@font/opensans_semibold"
+        android:textSize="14sp"
+        android:textColor="@color/Ijologo"
+        android:textAlignment="center"
+        android:layout_marginTop="0dp"
+        />
+
+</RelativeLayout>
